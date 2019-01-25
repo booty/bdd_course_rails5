@@ -18,7 +18,7 @@ RSpec.feature "Listing Articles" do
     click_link "Edit Article"
     fill_in "Title", with: "Updated Title"
     fill_in "Body", with: "Updated Body"
-    click_button "Update Article"
+    click_button "Save Article"
 
     expect(page).to have_content "Article has been updated"
     expect(page).to have_content "Updated Title"
@@ -31,7 +31,7 @@ RSpec.feature "Listing Articles" do
     click_link "Edit Article"
     fill_in "Title", with: ""
     fill_in "Body", with: "Updated Body"
-    click_button "Update Article"
+    click_button "Save Article"
 
     expect(page).to have_content "Article has not been updated"
   end
