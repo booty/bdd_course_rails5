@@ -1,0 +1,16 @@
+<article class="detail-article">
+	<h1 class="article-detail-title">
+		<%= @article.title %>
+	</h1>
+	<div class="article-body">
+		<%= @article.body %>
+		<p class="small">
+			<span id="article-date">
+				<span class="glyphicon glyphicon-calendar"></span>
+				<%= @article.created_at.strftime("%b %d, %Y") %>
+			</span>
+		<p>
+	</div>
+
+	<%= link_to "Edit Article", edit_article_path(@article), class: "btn btn-primary btn-lg btn-space" %>
+</article>
