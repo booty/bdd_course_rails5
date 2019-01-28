@@ -9,8 +9,8 @@ body {
 
 // Navbar styling
 .navbar {
-	background: #64103F;
-	padding-bottom: 20px;
+  background: #64103F;
+  padding-bottom: 20px;
 }
 
 .navbar-default .navbar-brand {
@@ -48,7 +48,7 @@ body {
   color: #64103F;
 }
 
-// Article list
+// Listing articles styling
 
 .article-title {
   font-weight: bold;
@@ -61,7 +61,6 @@ body {
   font-size: 1.5em;
   padding-left: 1.2em;
   color: #64103F;
-
 }
 
 .author {
@@ -69,19 +68,16 @@ body {
   padding-left: 25px;
 }
 
+// .article-title {
+//
+// }
 
 .article-detail {
   margin-top: 20px;
   color: #0000ff;
 }
 
-// Article
-
-.article-detail {
-  margin-top: 20px;
-  color: #0000ff;
-}
-
+// Article Show view styling
 .article-detail-title {
   font-size: 3em;
   margin-bottom: 40px;
@@ -91,4 +87,30 @@ body {
   font-size: 1.5em;
   padding-left: 0em;
   margin-top: 15px;
+}
+
+.edit-delete {
+  margin-top: 20px;
+}
+
+// Sign up -- Sign in
+.sign-link a {
+  color: #64103F;
+}
+
+// Devise Error Messages
+#error_explanation {
+  background-color: #f2dede;
+  color: #a94442;
+  text-align: left;
+  padding: 5px 20px;
+  margin-bottom: 30px;
+}
+
+#error_explanation h2 {
+  font-size: 150%;
+}
+
+footer {
+  color: #64103F;
 }
